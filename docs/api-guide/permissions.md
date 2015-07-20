@@ -251,6 +251,10 @@ The [Composed Permissions][composed-permissions] package provides a simple way t
 
 The [REST Condition][rest-condition] package is another extension for building complex permissions in a simple and convenient way.  The extension allows you to combine permissions with logical operators.
 
+## Signed Permissions
+
+The [Signed Permissions][signed-permissions] package provides easy creation of signed urls with fine grained permissions.
+
 [cite]: https://developer.apple.com/library/mac/#documentation/security/Conceptual/AuthenticationAndAuthorizationGuide/Authorization/Authorization.html
 [authentication]: authentication.md
 [throttling]: throttling.md
@@ -264,3 +268,4 @@ The [REST Condition][rest-condition] package is another extension for building c
 [drf-any-permissions]: https://github.com/kevin-brown/drf-any-permissions
 [composed-permissions]: https://github.com/niwibe/djangorestframework-composed-permissions
 [rest-condition]: https://github.com/caxap/rest_condition
+[signed-permissions]: https://github.com/chewse/djangorestframework-signed-permissions
